@@ -1,5 +1,8 @@
 Çalışma 1- Ekrandan girilen sayının karesini ve küpünü alınız.
         Çıkan sonucu ekrana yazdırınız.
 
-Çalişma 2- Ekrandan kenarları alınan dikdörtgenin çevre ve alan hesabını 
-        yapınız.
+Çalişma 2- Ekrandan kenarları alınan dikdörtgenin çevre ve alan hesabını yapınız.
+
+Çalişma 3- Ekrandan alınan suyun sıcaklığına göre 0'dan küçükse kati, 0 ile 100 arasında ise sivi, 100'den 
+        büyükse gaz haldedir mesajı veren algoritmayı yazdırınız
+
