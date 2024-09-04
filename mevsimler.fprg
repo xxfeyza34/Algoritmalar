@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="feyza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 06:02:33 &#214;S"/>
+        <attribute name="created" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDQ7MDU6NDc6MjAgw5ZTOzMwNzk="/>
+        <attribute name="edited" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDQ7MDY6MDI6MzMgw5ZTOzE7MzE4Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ay" type="Integer" array="False" size=""/>
+            <output expression="&quot;Bir ay giriniz&quot;" newline="True"/>
+            <input variable="ay"/>
+            <if expression="ay=12||ay=1||ay=2">
+                <then>
+                    <output expression="&quot;K&#305;&#351; mevsimindesiniz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="ay=3 &amp;&amp; ay=5">
+                        <then>
+                            <output expression="&quot;&#304;lkbahar mevsimindesiniz&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="ay=6 &amp;&amp; ay=8">
+                                <then>
+                                    <output expression="&quot;Yaz mevsimindesiniz&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Sonbahar mevsimindesiniz&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

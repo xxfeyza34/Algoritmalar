@@ -9,3 +9,5 @@
 Çalışma 4- İki vize, bir final şeklinde olacak sınavda vizenin %30, finalin %70 alınacak.
         Eğer ortalama 50 üzerinde ise geçti, altında ise kaldı yazılacak.
 
+Çalışma 5- Ekrandan kaçıncı ayda olduğunu okutun ve bulduğunuz mevsimi hesaplatın.
+
