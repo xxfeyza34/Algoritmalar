@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="feyza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 06:53:55 &#214;S"/>
+        <attribute name="created" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDQ7MDY6MTQ6MTUgw5ZTOzMwNzg="/>
+        <attribute name="edited" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDQ7MDY6NTM6NTUgw5ZTOzE7MzE5Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kullan&#305;c&#305;adi, &#351;ifre" type="String" array="False" size=""/>
+            <declare name="hatasayisi" type="Integer" array="False" size=""/>
+            <assign variable="hatasayisi" expression="0"/>
+            <do expression="hatasayisi&lt;5">
+                <output expression="&quot;Kullan&#305;c&#305; ad&#305; giriniz&quot;" newline="True"/>
+                <input variable="kullan&#305;c&#305;adi"/>
+                <output expression="&quot;&#350;ifre ad&#305; giriniz&quot;" newline="True"/>
+                <input variable="&#351;ifre"/>
+                <if expression="kullan&#305;c&#305;adi=&quot;admin&quot; &amp;&amp; &#351;ifre=&quot;admin&quot;">
+                    <then>
+                        <output expression="&quot;Ho&#351;geldin admin&quot;" newline="True"/>
+                        <assign variable="hatasayisi" expression="10"/>
+                    </then>
+                    <else>
+                        <if expression="kullan&#305;c&#305;adi=&quot;admin&quot;">
+                            <then>
+                                <output expression="&quot;&#350;ifre hatal&#305;d&#305;r.&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;Kullan&#305;c&#305;ad&#305; hatal&#305;d&#305;r.&quot;" newline="True"/>
+                            </else>
+                        </if>
+                        <assign variable="hatasayisi" expression="hatasayisi+1"/>
+                    </else>
+                </if>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
