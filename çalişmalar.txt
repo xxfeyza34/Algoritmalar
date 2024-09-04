@@ -1,0 +1,2 @@
+Çalışma 1- Ekrandan girilen sayının karesini ve küpünü alınız.
+        Çıkan sonucu ekrana yazdırınız.
