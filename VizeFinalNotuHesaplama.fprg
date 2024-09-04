@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="feyza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 05:44:57 &#214;S"/>
+        <attribute name="created" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDQ7MDU6Mzk6Mjggw5ZTOzMwODg="/>
+        <attribute name="edited" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDQ7MDU6NDQ6NTcgw5ZTOzE7MzE5NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vize, final, ortalama" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vizede al&#305;nan notu giriniz.&quot;" newline="True"/>
+            <input variable="vize"/>
+            <output expression="&quot;Finalden al&#305;nan notu giriniz.&quot;" newline="True"/>
+            <input variable="final"/>
+            <assign variable="ortalama" expression="0.3*vize+0.7*final"/>
+            <if expression="ortalama&gt;=50">
+                <then>
+                    <output expression="&quot;ge&#231;tiniz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Kald&#305;n&#305;z&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

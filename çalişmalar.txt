@@ -6,3 +6,6 @@
 Çalişma 3- Ekrandan alınan suyun sıcaklığına göre 0'dan küçükse kati, 0 ile 100 arasında ise sivi, 100'den 
         büyükse gaz haldedir mesajı veren algoritmayı yazdırınız
 
+Çalışma 4- İki vize, bir final şeklinde olacak sınavda vizenin %30, finalin %70 alınacak.
+        Eğer ortalama 50 üzerinde ise geçti, altında ise kaldı yazılacak.
+
