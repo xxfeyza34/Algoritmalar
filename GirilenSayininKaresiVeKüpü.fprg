@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="feyza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 04:49:09 &#214;S"/>
+        <attribute name="created" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDQ7MDQ6Mzk6NDkgw5ZTOzMwOTA="/>
+        <attribute name="edited" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDQ7MDQ6NDk6MDkgw5ZTOzE7MzE5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, karesi, k&#252;p&#252;" type="Integer" array="False" size=""/>
+            <output expression="&quot;Bir say&#305; giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <assign variable="karesi" expression="sayi*sayi"/>
+            <output expression="&quot;karesi:&quot; &amp;karesi" newline="True"/>
+            <assign variable="k&#252;p&#252;" expression="sayi*sayi*sayi"/>
+            <output expression="&quot;k&#252;p&#252;:&quot; &amp;k&#252;p&#252;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

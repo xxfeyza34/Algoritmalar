@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="feyza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 04:59:18 &#214;S"/>
+        <attribute name="created" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDQ7MDQ6NTM6MzAgw5ZTOzMwNzY="/>
+        <attribute name="edited" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDQ7MDQ6NTk6MTggw5ZTOzE7MzE5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1, sayi2" type="Integer" array="False" size=""/>
+            <assign variable="sayi1" expression="3"/>
+            <assign variable="sayi2" expression="5"/>
+            <if expression="sayi1&gt;sayi2">
+                <then>
+                    <output expression="&quot;Girilen &quot;&amp;sayi1 &amp;&quot; , &quot;&amp;sayi2 &amp;&quot; 'den b&#252;y&#252;kt&#252;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Girilen &quot;&amp;sayi2 &amp;&quot; , &quot;&amp;sayi1 &amp;&quot; 'den b&#252;y&#252;kt&#252;r&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
