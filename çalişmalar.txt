@@ -1,2 +1,5 @@
 Çalışma 1- Ekrandan girilen sayının karesini ve küpünü alınız.
         Çıkan sonucu ekrana yazdırınız.
+
+Çalişma 2- Ekrandan kenarları alınan dikdörtgenin çevre ve alan hesabını 
+        yapınız.

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="feyza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 05:07:37 &#214;S"/>
+        <attribute name="created" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDQ7MDQ6NTk6MjIgw5ZTOzMwODM="/>
+        <attribute name="edited" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDQ7MDU6MDc6Mzcgw5ZTOzE7MzE5MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kisakenar, uzunkenar, alan, &#231;evre" type="Integer" array="False" size=""/>
+            <output expression="&quot;Dikd&#246;rtgenin k&#305;sa kenar&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="kisakenar"/>
+            <output expression="&quot;Dikd&#246;rtgenin uzun kenar&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="uzunkenar"/>
+            <assign variable="alan" expression="kisakenar*uzunkenar"/>
+            <output expression="&quot;alan:&quot; &amp;alan" newline="True"/>
+            <assign variable="&#231;evre" expression="2*kisakenar+2*uzunkenar"/>
+            <output expression="&quot;&#231;evre:&quot; &amp;&#231;evre" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
