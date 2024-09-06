@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="feyza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 09:23:46 &#214;S"/>
+        <attribute name="created" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDY7MDk6MTE6NDkgw5ZTOzMwODc="/>
+        <attribute name="edited" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDY7MDk6MjM6NDYgw5ZTOzE7MzE5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Ay&#351;eYas, YeldaYas, SinanYas, ErcanYas" type="Integer" array="False" size=""/>
+            <declare name="Yas" type="Integer" array="True" size="60"/>
+            <assign variable="Yas[1]" expression="22"/>
+            <assign variable="Yas[2]" expression="30"/>
+            <assign variable="Yas[44]" expression="12"/>
+        </body>
+    </function>
+</flowgorithm>
