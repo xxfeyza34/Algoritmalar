@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="feyza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 09:02:51 &#214;S"/>
+        <attribute name="created" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDY7MDg6Mzc6NDEgw5ZTOzMwODY="/>
+        <attribute name="edited" value="ZmV5emE7TEFQVE9QLUJURUdVUEpLOzIwMjQtMDktMDY7MDk6MDI6NTEgw5ZTOzE7MzE4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="adet, toplamadet, fiyat, toplamfiyat" type="Real" array="False" size=""/>
+            <assign variable="toplamfiyat" expression="0"/>
+            <assign variable="toplamadet" expression="0"/>
+            <do expression="toplamfiyat&lt;&gt;0">
+                <output expression="&quot;Ald&#305;&#287;&#305;n&#305;z &#252;r&#252;n say&#305;s&#305;n&#305; giriniz&quot;" newline="True"/>
+                <input variable="adet"/>
+                <output expression="&quot;Ald&#305;&#287;&#305;n&#305;z &#252;r&#252;n fiyat&#305;n&#305; giriniz&quot;" newline="True"/>
+                <input variable="fiyat"/>
+                <assign variable="adet" expression="adet+toplamadet"/>
+                <assign variable="toplamfiyat" expression="toplamfiyat+(adet*fiyat)"/>
+            </do>
+            <output expression="&quot;Toplam fiyat=&quot; &amp;toplamfiyat" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -11,3 +11,5 @@
 
 Çalışma 5- Ekrandan kaçıncı ayda olduğunu okutun ve bulduğunuz mevsimi hesaplatın.
 
+Çalışma 6- Ekrandan girilen sayının asal olup olmadığını gösteren program yazınız.
+
